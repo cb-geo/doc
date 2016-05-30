@@ -9,10 +9,10 @@ Git repositories are stored and mirrored from `ci.cb-geo.com`. User: `<refer to 
 	git clone --mirror git@git.cb-geo.com:lem/lem.git
 	cd lem.git
 
-## Set the push location to gitlab.com mirror site (user: cb-geo)
-     	git remote set-url --push origin git@gitlab.com:cbgeo/lem.git
+## Set a push location to the mirror site
+	git remote set-url --push origin git@gitlab.com:cbgeo/lem.git
     
-## Set the push location to github.com mirror site (user: cb-geo)
+## Set the push location to multiple mirror sites
 Edit the `config` file in the repo and add github and gitlab repo urls as additional push urls.
 The file should look like:
 
