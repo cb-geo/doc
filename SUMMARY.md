@@ -6,3 +6,4 @@
   * [CB-Geo Git guidelines](git/guidelines.md)
   * [Mirroring Git repos](git/mirror.md)
 * [Docker](docker/docker.md)
+* [Vagrant](vagrant/vagrant.md)
