@@ -3,6 +3,8 @@
 
 ![Docker v VM](docker-vm.png)
 
+Download Docker engine [here](https://docs.docker.com/engine/installation/) 
+
 # CB-Geo docker images
 
 [CB-Geo](https://hub.docker.com/u/cbgeo/) has custom docker images for different software codes:
