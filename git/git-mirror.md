@@ -3,19 +3,18 @@
 Core server: [https://git.cb-geo.com](https://git.cb-geo.com)
 Mirror servers: [GitLab](https://gitlab.com/groups/cbgeo) & [GitHub](https://github.com/cb-geo)
 
-Git repositories are stored and mirrored from `ci.cb-geo.com`. User: <refer to internal doc>. Location: `~/git-repos/`
+Git repositories are stored and mirrored from `ci.cb-geo.com`. User: `<refer to internal doc>`. Location: `~/git-repos/`
 
-# Make a bare mirrored clone of the repository
+## Make a bare mirrored clone of the repository
 	git clone --mirror git@git.cb-geo.com:lem/lem.git
-
 	cd lem.git
 
-# Set the push location to gitlab.com mirror site (user: cb-geo)
+## Set the push location to gitlab.com mirror site (user: cb-geo)
      	git remote set-url --push origin git@gitlab.com:cbgeo/lem.git
     
-# Set the push location to github.com mirror site (user: cb-geo)
-Edit config file in the repo and add github’s repo url as an additional push url.
-The file should look like
+## Set the push location to github.com mirror site (user: cb-geo)
+Edit the `config` file in the repo and add github and gitlab repo urls as additional push urls.
+The file should look like:
 
 	[core]
 		repositoryformatversion = 0
@@ -51,7 +50,7 @@ Snippet from `mirror.sh`
 	git fetch -p origin
 	git push --mirror
 
-Check cron job status `tail /var/spool/mail/geomechanics`
+Check cron job status `tail /var/spool/mail/<user>`
 
 
 Reference
