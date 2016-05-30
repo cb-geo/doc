@@ -3,5 +3,6 @@
 * [Introduction](README.md)
 * [Resources](resources/resources.md)
 * [Git](git/git.md)
-  * [Mirroring Git repos](git/git-mirror.md)
+  * [CB-Geo Git guidelines](git/guidelines.md)
+  * [Mirroring Git repos](git/mirror.md)
 * [Docker](docker/docker.md)
