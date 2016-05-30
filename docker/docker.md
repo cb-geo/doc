@@ -18,7 +18,7 @@
 ### Clone the docker container
 * `docker pull cbgeo/cb-geo:latest`. The tag `latest` is not required. Clone the container appropriate for your use case, for eg., use `cbgeo/mpm` for FE / MPM code 
 
-### Use the docker image
+### Using the docker image
 * The docker image can be used directly from the Docker Hub
 * To launch the `cbgeo/ca-abm`  docker container, run `docker run -ti cbgeo/cb-geo:latest /bin/bash`
 
@@ -38,5 +38,7 @@
 
 
 # Docker cheat sheet
+
+[Docker self-paced training](https://training.docker.com/self-paced-training)
 
 ![Docker cheat sheet](docker-cheat-sheet.png)
