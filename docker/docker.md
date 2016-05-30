@@ -1,5 +1,5 @@
-# Git
-[Docker](https://www.docker.com/) is an open-source project that automates the deployment of applications inside software containers. Docker allows you to package an application with all of its dependencies into a standardized unit for software development. Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in. The difference between docker and a typical Virtual Machine: 
+# Docker
+[Docker](https://www.docker.com/) is an open-source project that automates the deployment of applications by packaging an application with all of its dependencies into software containers. Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in. The difference between docker containers and typical Virtual Machines (VMs): 
 
 ![Docker v VM](docker-vm.png)
 
