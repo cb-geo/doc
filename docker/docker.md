@@ -25,10 +25,14 @@ Download Docker engine [here](https://docs.docker.com/engine/installation/)
 * To launch the `cbgeo/ca-abm`  docker container, run `docker run -ti cbgeo/cb-geo:latest /bin/bash`
 
 ### Run the container with local volume mounted
-* `docker run -ti -v /home/<user>/<mounted-folder>/ cbgeo/cb-geo:latest`
+* `docker run -ti -v /home/<user>/<mounted-folder>/:/<path-in-container> cbgeo/cb-geo:latest`
 
 ### Connecting to a running container
 * `docker exec -ti <containerid> /bin/bash`
+
+### Exposing ports
+* To connect to a particular port (for e.g., 3000) in docker container to port `3000` in localhost:
+	`docker run -ti -p 3000:3000 cbgeo/ca-abm`
 
 ### To login as root
 * Launching docker as root user: `docker exec -u 0 -ti <containerid> /bin/bash`
