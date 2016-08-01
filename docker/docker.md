@@ -30,6 +30,14 @@ Download Docker engine [here](https://docs.docker.com/engine/installation/)
 ### Connecting to a running container
 * `docker exec -ti <containerid> /bin/bash`
 
+### Start / stop a container
+* `docker start <containerid>`
+* `docker stop <containerid>`
+
+### Delete container
+* `docker rm <containerid>`, stop the container before deleting it. 
+* To delete all docker containers `docker rm $(docker ps -a -q)`
+
 ### Exposing ports
 * To connect to a particular port (for e.g., 3000) in docker container to port `3000` in localhost:
 	`docker run -ti -p 3000:3000 cbgeo/ca-abm`
@@ -46,5 +54,7 @@ Download Docker engine [here](https://docs.docker.com/engine/installation/)
 # Docker cheat sheet
 
 [Docker self-paced training](https://training.docker.com/self-paced-training)
+
+[Docker quick reference sheet](./docker-quick-ref.pdf)
 
 ![Docker cheat sheet](docker-cheat-sheet.png)
