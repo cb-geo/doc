@@ -55,6 +55,6 @@ Download Docker engine [here](https://docs.docker.com/engine/installation/)
 
 [Docker self-paced training](https://training.docker.com/self-paced-training)
 
-[Docker quick reference sheet](https://github.com/cb-geo/doc/docker/docker-quick-ref.pdf)
+[Docker quick reference sheet](https://github.com/cb-geo/doc/blob/master/docker/docker-quick-ref.pdf)
 
 ![Docker cheat sheet](docker-cheat-sheet.png)
