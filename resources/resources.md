@@ -8,10 +8,12 @@ The following resources are available within the CB-Geo group.
 
 * [![docker](images/docker.png) Docker](https://hub.docker.com/u/cbgeo): Lightweight container
 
-* [![github](images/github.png) GitHub](https://github.com/cb-geo): Git code hosting (mirror of GitLab)
+* [![github](images/github.png) GitHub](https://github.com/cb-geo): Git code hosting
 
-* [![gitlab](images/gitlab.png) GitLab](https://git.cb-geo.com): Git code hosting and Continous Integration system
+* [![gitlab](images/gitlab.png) GitLab](https://gitlab.com/groups/cb-geo): Git code hosting (mirror of GitHub)
 
 * [![slack](images/slack.png) Slack](https://cb-geo.slack.com/): Team communication
 
-* [![vagrant](images/vagrant.png) Vagrant](https://www.vagrantup.com/): Virtual development environment deployment
+* [![slack](images/travis.png) Travis-CI](https://travis-ci.org/cb-geo): Continous integration
+
+* [![vagrant](images/vagrant.png) Vagrant](https://www.vagrantup.com/): Virtual environment deployment
