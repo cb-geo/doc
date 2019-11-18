@@ -1,5 +1,5 @@
 * [Introduction](README.md)
-* [Resources](resources/resources.md)
+* [Getting started](getting-started/welcome.md)
 * [Git](git/git.md)
   * [CB-Geo Git guidelines](git/guidelines.md)
   * [Mirroring Git repos](git/mirror.md)
